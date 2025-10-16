@@ -5,7 +5,7 @@ Proyek ini menjalankan PostgreSQL dan PGAdmin4 menggunakan Docker Compose.
 
 ## Struktur
 - `docker-compose.yml` : konfigurasi service PostgreSQL dan PGAdmin4
-- `.env` : menyimpan variabel rahasia (username & password)
+- `.env` : menyimpan variabel rahasia 
 - `sql/schema.sql` : pembuatan schema SALAM dan tabel mahasiswas
 - `sql/roles.sql` : pembuatan role backend_dev, bi_dev, dan data_engineer
 - `sql/constraints_test.sql` : pengujian constraint tabel mahasiswas
